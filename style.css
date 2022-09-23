@@ -71,19 +71,12 @@ small{
     border: 2px solid brown;
 }
 
-.btn:hover{
-    background-color: black;
-    color: blanchedalmond;
-    border: 2px solid black;
-}
 
-.btn::after{
-    background-color: brown;
-}
 
 @media (max-width: 1400px) {
     .container{
         width: 75%;
+        height: 100vh;
     }
 
 }            
