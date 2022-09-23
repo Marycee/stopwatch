@@ -64,18 +64,22 @@ small{
     border: 2px solid rgb(200, 65, 95);
 }
 
+.btn{
+    background-color: blanchedalmond;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid brown;
+}
+
 .btn:hover{
     background-color: black;
-    color: white;
+    color: blanchedalmond;
     border: 2px solid black;
 }
 
-.btn{
-    padding: 5px;
-    border-radius: 5px;
-    border: 2px solid white;
+.btn::after{
+    background-color: brown;
 }
-
 
 @media (max-width: 1400px) {
     .container{
