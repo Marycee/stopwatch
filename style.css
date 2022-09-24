@@ -74,9 +74,11 @@ small{
 
 
 @media (max-width: 600px) {
+     body{
+       max-height: 100vh;
+    }
     .container{
         width: 75%;
-        max-height: 100vh;
     }
 
 }            
