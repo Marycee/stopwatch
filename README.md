@@ -1,2 +1,2 @@
 # stopwatch
-This project is about a friend functional and responsive stopwatch. 
+This project is about a functional and responsive stopwatch. 
