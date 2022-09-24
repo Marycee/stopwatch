@@ -76,6 +76,7 @@ small{
 @media (max-width: 600px) {
      body{
        max-height: 100vh;
+       overflow: hidden;
     }
     .container{
         width: 75%;
