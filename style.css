@@ -9,6 +9,7 @@ body{
     height: 100vh;
     color: rgb(200, 65, 95);
     display: flex;
+    overflow: hidden;
     background: linear-gradient(to right, steelblue, aqua);
 }
 
@@ -74,10 +75,6 @@ small{
 
 
 @media (max-width: 600px) {
-     body{
-       max-height: 100vh;
-       overflow: hidden;
-    }
     .container{
         width: 75%;
     }
