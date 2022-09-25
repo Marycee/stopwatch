@@ -4,13 +4,23 @@
     box-sizing: border-box;
 }
 
-body{
-    margin: 0;
-    height: 100vh;
+ body{
     color: rgb(200, 65, 95);
+    background: linear-gradient(to right, rgb(121, 48, 103), rgb(194, 55, 141));
+    height: 100vh;
     display: flex;
-    overflow: hidden;
-    background: linear-gradient(to right, steelblue, aqua);
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.container{
+    width: 350px;
+    background-color: blanchedalmond;
+    padding: 40px;
+    border-radius: 50px;
+    box-shadow: 0 0 40px black;
 }
 
 h1{
@@ -22,18 +32,6 @@ small{
     font-size: 16px;
 }
 
-.container{
-    background-color: blanchedalmond;
-    box-shadow: 0 0 40px rgb(100, 100, 189);
-    border-radius: 50px;
-    padding: 40px;
-    width: 400px;
-    max-width: 400px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 .wrapper{
     margin: auto;
     background-color: black;
@@ -69,19 +67,11 @@ small{
     background-color: blanchedalmond;
     padding: 5px;
     border-radius: 5px;
-    border: 2px solid brown;
+    border: 2px solid rgb(165, 42, 89);
 }
 
-
-
-@media (max-width: 600px) {
-    body{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-     }
-    .container{
-        width: 75%;
-    }
-
-}            
+.btn:hover{
+    background-color: black;
+    color: blanchedalmond;
+    border: 2px solid black;
+}           
