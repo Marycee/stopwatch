@@ -6,7 +6,7 @@
 
  body{
     color: rgb(200, 65, 95);
-    background: linear-gradient(to right, rgb(121, 48, 103), rgb(194, 55, 141));
+    background-color: black;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -68,10 +68,4 @@ small{
     padding: 5px;
     border-radius: 5px;
     border: 2px solid rgb(165, 42, 89);
-}
-
-.btn:hover{
-    background-color: black;
-    color: blanchedalmond;
-    border: 2px solid black;
-}           
+}        
